@@ -62,8 +62,8 @@ class PrestigeLayer
             }
             return "<span class='flipped-v'>Ω</span><sup>" + PrestigeLayer.getNameForLayer(layer.div(INFINITY).floor().sub(1)) + "</sup>";
         }
-        let letters = "αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ";
-        let orders = "ψϝϛͱϻϙͳϸ";
+        let letters = "αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ€̵̧̡͈̹̠̫͕̝̖̱͖̬̞̖̫͕͎̲̗̯̫̹̤͚̘̜̠̤̟̩̬͈͔̠̞̥̾̾̽̔͋̏̉ͅͅ";
+        let orders = "ψϝϛͱϻϙͳϸ€̵̧̡͈̹̠̫͕̝̖̱͖̬̞̖̫͕͎̲̗̯̫̹̤͚̘̜̠̤̟̩̬͈͔̠̞̥̾̾̽̔͋̏̉ͅͅ";
         let totalCombinations = (orders.length + 2) * letters.length;
         let arrowOrder = Math.floor(Math.log(nLayer) / Math.log(totalCombinations));
         let order = Math.floor(nLayer / letters.length);
